@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "meal": "Breakfast",
+    "fruits": "physalis",
+    "breads": "fruit bread",
+    "cocktails": "God Father",
+    "tea": "China Silver Needle"
+  },
+  {
+    "id": 2,
+    "meal": "Lunch",
+    "fruits": "tamarillo",
+    "breads": "roti",
+    "cocktails": "Dry Martini",
+    "tea": "Micromeria Chionistrae"
+  },
+  {
+    "id": 3,
+    "meal": "Tea Break",
+    "fruits": "banana",
+    "breads": "pumpernickel",
+    "cocktails": "Black Russian",
+    "tea": "Bancha"
+  }
+]
