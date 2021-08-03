@@ -19,9 +19,9 @@ const Home = () => {
             <img src={conf} alt="conf" className="w-screen md:h-96" />
           </figure>
         </div>
-        <section>
+        {/* <section>
           <h4>Speakers</h4>
-        </section>
+        </section> */}
       </section>
     </main>
   );
