@@ -1,4 +1,6 @@
+import Speaker from "../components/Speaker";
 import conf from "../images/conf.jpg";
+import speakers from "../lib/speakers.json";
 
 const Home = () => {
   return (
@@ -19,9 +21,16 @@ const Home = () => {
             <img src={conf} alt="conf" className="w-screen md:h-96" />
           </figure>
         </div>
-        {/* <section>
-          <h4>Speakers</h4>
-        </section> */}
+        <section className="container my-8">
+          <section className="text-center border-b border-gray-500 py-4 w-max m-auto md:text-4xl font-extrabold">
+            <h2>Speakers</h2>
+          </section>
+          <section className="grid md:grid-flow-col md:gap-4 text-center">
+            {speakers.map((speaker) => (
+              <Speaker data={speaker} key={speaker.id} />
+            ))}
+          </section>
+        </section>
       </section>
     </main>
   );
